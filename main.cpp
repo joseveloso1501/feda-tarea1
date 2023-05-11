@@ -30,11 +30,10 @@ void bubbleSort(int arr[], int n)
 
 // mergesort
 
-void merge(int arr[], int l, int m, int r)
+void merge(int arr[], int &l, int &m, int r)
 {
     int i, j, k;
     int n1 = m - l + 1;
-    n1 = 0;
     int n2 = r - m;
 
     // Crea dos arreglos temporales para guardar los elementos
